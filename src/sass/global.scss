@@ -3,7 +3,7 @@
  * ========================================================================== */
 
 .html{
-	min-width: 1020px;
+	min-width: 1180px;
 	-webkit-font-smoothing: antialiased;
 	text-size-adjust: none;
 	font-size: 16px;
@@ -41,8 +41,8 @@
 
 
 .text{
-	font-size: 18px;
-	line-height: (26/18);
+	font-size: 20px;
+	line-height: (32/20);
 
 	h3{
 		font-size: 24px;
@@ -62,10 +62,10 @@
 	}
 
 	b{
-		font-weight: 700;
+		font-weight: 500;
 	}
 	strong{
-		font-weight: 700;
+		font-weight: 500;
 	}
 
 	em{

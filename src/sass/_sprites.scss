@@ -11,6 +11,17 @@ $icon-home: x y offset_x offset_y width height total_width total_height image_pa
 At the bottom of this section, we provide information about the spritesheet itself
 $spritesheet: width height image $spritesheet-sprites;
 */
+$investstrakh-name: 'investstrakh';
+$investstrakh-x: 0px;
+$investstrakh-y: 52px;
+$investstrakh-offset-x: 0px;
+$investstrakh-offset-y: -52px;
+$investstrakh-width: 123px;
+$investstrakh-height: 41px;
+$investstrakh-total-width: 148px;
+$investstrakh-total-height: 93px;
+$investstrakh-image: '../images/sprite.png';
+$investstrakh: (0px, 52px, 0px, -52px, 123px, 41px, 148px, 93px, '../images/sprite.png', 'investstrakh', );
 $logotype-name: 'logotype';
 $logotype-x: 0px;
 $logotype-y: 0px;
@@ -19,14 +30,14 @@ $logotype-offset-y: 0px;
 $logotype-width: 148px;
 $logotype-height: 52px;
 $logotype-total-width: 148px;
-$logotype-total-height: 52px;
+$logotype-total-height: 93px;
 $logotype-image: '../images/sprite.png';
-$logotype: (0px, 0px, 0px, 0px, 148px, 52px, 148px, 52px, '../images/sprite.png', 'logotype', );
+$logotype: (0px, 0px, 0px, 0px, 148px, 52px, 148px, 93px, '../images/sprite.png', 'logotype', );
 $spritesheet-width: 148px;
-$spritesheet-height: 52px;
+$spritesheet-height: 93px;
 $spritesheet-image: '../images/sprite.png';
-$spritesheet-sprites: ($logotype, );
-$spritesheet: (148px, 52px, '../images/sprite.png', $spritesheet-sprites, );
+$spritesheet-sprites: ($investstrakh, $logotype, );
+$spritesheet: (148px, 93px, '../images/sprite.png', $spritesheet-sprites, );
 
 /*
 The provided mixins are intended to be used with the array-like variables
